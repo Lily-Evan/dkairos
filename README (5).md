@@ -7,15 +7,13 @@ This repository contains the complete implementation of a two-part university pr
 ## 📂 Project Structure
 ```
 ├── data/
-│   ├── Indices.mat
-│   ├── omni_storms.txt
-├── src/
-│   ├── exercise1_particles.py
-│   ├── exercise2_geomagnetic.py
-├── results/
-│   ├── plots/
-│   ├── tables/
-└── README.md
+│   ├── Indices.mat              # Dst & AL indices (5-min resolution)
+│   ├── omni_storms.txt          # OMNI solar-wind data (no header)
+│
+├── διαστημικος καιρος.ipynb     # Main analysis notebook
+│
+└── README.md                    # Project documentation
+
 ```
 
 ## 🧪 Exercise 1 – Particle Detection
@@ -41,8 +39,25 @@ Python, NumPy, SciPy, Pandas, Matplotlib
 
 ## 🚀 Running the Code
 ```
-python3 src/exercise1_particles.py
-python3 src/exercise2_geomagnetic.py
+🚀 Running the Code
+
+This project is optimized for Google Colab.
+
+To run:
+
+Upload:
+
+Indices.mat
+
+omni_storms.txt
+
+διαστημικος καιρος.ipynb
+
+Open the notebook in Google Colab.
+
+Run all cells.
+
+No local installation required.
 ```
 
 ## 👩‍💻 Author
